@@ -1,8 +1,8 @@
 Hi class!
 
-Welcome to CS341 System Programming! I'm Lawrence Angrave. I'm excited to be your instructor this semester and to introduce you to C programming and System Programming. 
+Welcome to CS341 System Programming! I'm Lawrence Angrave. I'm excited to be your instructor this semester and to introduce you to C programming and System Programming.
 
-You can also use the course book and asynchronously watch recorded lectures or the previously online lectures both on ClassTranscribe to do well in the class - the choice is yours.
+In addition to coming to class you can also use the (FREE) course book and/or asynchronously watch the recorded "241" lectures on ClassTranscribe to do well in the class - the choice is yours.
 
 Live lectures will be friendly, relaxed, interactive, varied-format, CS341-y content demos and interesting - and a great time to ask questions too. You'll want to supplement these with our free(!) online course book on the website or if online learning is more your style, the pre-recorded videos on ClassTranscribe.
 
@@ -30,21 +30,27 @@ The variable type is a hint to the compiler as to how many bytes to read/write a
 
 Let's get started today, right now, with Homework Zero - my introductory mini-course. If you open the link below up on a powerful laptop or desktop using Chrome / Firefox you'll discover videos, man pages, and a complete virtual linux machine running inside your browser (yes it implements memory, disk and CPU in javascript and then boots up a linux machine with gcc and other standard tools - pretty cool! - it works best in Chrome). There's one #include issue with waitpid that I'll let you discover (and find a workaround) in the last lecture. Also, if nothing seems to be changing check the editor is editing the C file that is compiled and run (program.c).
 
-http://cs-education.github.io/sys/
-The questions are here, this is the same repo I will use for live Fall 2022 lectures. https://github.com/angrave/CS341-Lectures-FA22/blob/main/HW0.md
+http://cs-education.github.io/sys/ 
+
+The questions are here, this is the same repo I will use for live Fall 2022 lectures. https://github.com/angrave/CS341-Lectures-FA22/blob/main/HW0.md 
+
+This is the same repo I will use for live Fall 2022 lectures and it will includes the example code and pdfs of the handouts if you prefer making digital notes instead of using paper!
+
 We will put up a link to submit HW0 starting the first lab section, although it won't be due until the following week. Just collect your answers in a simple long plain text document.
 
 You can also use regular linux machines and other online environments of course. I suggest you work on HW0 a bit each day (it's much better for long term recall and innate skills acquisition if you exercise your CS341 neurons each day).
 
-Please use Ed for discussion (and private posts for grading / logistics / emergency issues)- https://edstem.org Ed is not a U of I resource, so you could use a throw away email if you are concerned. Contact me if you have any concerns about this. Here's the link to join the Fall 2022 forum if you prefer to use an anonymous email-
+Please use Ed for discussion (and private posts for grading / logistics / emergency issues)- https://edstem.org Ed is not a U of I resource so contact me if you have any concerns about this. Here's the link to join the Fall 2022 forum 
 
-(Link hidden; it is only for enrolled CS341 students)
+(see email for link)
 
 Send all CS341 questions, comments, ideas, regrades, logistics, issues, grade requests,bananas-for-scale etc to Ed forums - not to my email. Most issues can be solved with a public or private post on Ed (or better, a search!). The course website (link currently under construction) is below. You can find links to the coursebook and syllabus (including learning objectives) here -
 
-http://cs341.cs.illinois.edu/ 
+http://cs341.cs.illinois.edu/
 
-Next steps: To help break down the digital barriers of an online course, I'd like to get to know you. So please share something about yourself on Ed. Where are you/what timezone? Any... Do you have any pets? Favorite movie? A picture of your favorite shoes. Favorite Poem, Cartoon, Joke or Music link. Up to you what you want to share. Who knows - maybe you'll find another student with similar interests and tastes.
+For those of you on campus I look forward to meeting you tomorrow. Monday 10am at CIF 0027/1025.
+
+Next steps: To help break down the digital barriers of an online course, I'd like to get to know you. So please share something about yourself on Ed. Do you have any pets? Favorite movie or summer story? A picture of your favorite shoes. Favorite Poem, Cartoon, Joke or Music link. Up to you what you want to share. Who knows - maybe you'll find another student with similar interests and tastes.
 
 Ready? Let's Go!
 
