@@ -87,6 +87,7 @@ In which our intrepid hero battles standard out, standard error, file descriptor
 
 ### Hello, World! (system call style)
 1. Write a program that uses `write()` to print out "Hi! My name is `<Your Name>`".
+	Ans
 ### Hello, Standard Error Stream!
 2. Write a function to print out a triangle of height `n` to standard error.
    - Your function should have the signature `void write_triangle(int n)` and should use `write()`.
