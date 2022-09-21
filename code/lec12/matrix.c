@@ -37,7 +37,7 @@ void* run(void* ptr) {
       char*mesg = "CS341 Rocks!";
       char c = (rand() & 1) ? '.' : mesg[x % strlen(mesg)]; //mesg[ rand() % strlen(mesg) ];
       for(int y = 0 ; y < height && (rand() & 15); y ++) {
-          image[ x + y*width ] = c; //^= 0x6E; // flip some bits
+          image[ x + y*width ] ^= 0x6E; // flip some bits
           usleep(x * 500L);
       }
       
