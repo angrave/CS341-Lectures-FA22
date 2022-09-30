@@ -62,7 +62,7 @@ void* runner(void*arg) {
        update_display(i,"Nap");
        pthread_cond_wait(cvs + i,locks+i);
      }
-     if(quit) break;
+     if(quit) { pthread_mutex_unlock( locks+i); break;}
 
      data[i] -= 2; 
      pthread_mutex_unlock(locks+i);
