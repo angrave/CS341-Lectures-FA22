@@ -1,0 +1,21 @@
+mkdir -p happy/halloween/blah
+ln -s 1.c hello.c
+
+ln -s . happy/halloween/EVIL-RECURSION
+
+chmod 600 happy
+cd happy
+ls happy
+ls
+chmod 700 happy
+cd happy
+
+mount
+cd /proc
+ls
+
+cd /proc/self
+
+cat maps
+
+dd if=/dev/zero of=/dev/null bs=1MB count=1024
