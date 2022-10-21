@@ -1,0 +1,9 @@
+cd to this directory
+then run
+
+For python 2-
+python -m SimpleHTTPServer
+(this will serve files from the current directory)
+
+For python 3-
+python -m http.server
