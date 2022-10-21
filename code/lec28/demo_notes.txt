@@ -1,0 +1,13 @@
+ls -i
+stat
+
+mkdir a
+cd a
+cat >hello.c
+ln hello.c another.c
+cd ..
+ln a/another.c yet.c
+stat yet.c
+# Link
+man link
+man -s2 link
