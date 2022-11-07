@@ -1,0 +1,7 @@
+ssh linux
+netstat -an
+head /proc/net/tcp /proc/net/tcp6
+cat /proc/net/tcp | grep 80
+
+netstat -ant | grep :22
+
